@@ -1,5 +1,5 @@
 body {text-align: center; color: white ;background-image: url(backgroundpattern.jpg)}
-    h1 {text-align: center; background-image: url(textbackground.jpeg); width: 400px; margin-left: 475px; border-radius: 10px }
+    h1 {text-align: center; background-image: url(textbackground.jpeg); width: 400px; margin-left: 503px; border-radius: 10px }
     .mypic {border-radius: 20px}
     .places {
         position: relative; top:55px ; left:175px; display: inline-block; background-image: url(placesbackground.jpeg);  background-position: center center;background-size:100% 100%; border-radius: 10px; color: #FF1493
@@ -14,36 +14,36 @@ body {text-align: center; color: white ;background-image: url(backgroundpattern.
     .myinfo {  background-image: url(textbackground.jpeg);
     width: 900px;
     border-radius: 10px;
-     margin-left: 220px; 
+     margin-left: 254px;
     }
     .favstable {
     border-radius: 10px;
     text-align: center;
- 
+
    position: relative;
    left: 500px
 }
     table th , table td { margin:0}
-    .slender {background-image: url(slenderman.jpg); 
+    .slender {background-image: url(slenderman.jpg);
         width: 900px; margin-left:
-         200px; border-radius: 10px; }
+         260px; border-radius: 10px; }
     .fifa {
             background-image: url(fifa13.jpg); background-size:100% 100%; background-position: center center; display: inline-block;
             background-repeat: no-repeat; border-radius: 10px; width: 900px; margin-right: 30px
     }
     .pewds {background-image: url("pewds.jpg"); background-size:100% 100%; background-position: center center; border-radius: 10px;
-    width: 900px; margin-left: 205px
+    width: 900px; margin-left: 261px
 
     }
     .friendsheader {
-        background-image: url(textbackground.jpeg); width: 600px; height: 50px; padding-top: 20px; padding-bottom: -20px; margin-left: 350px; border-radius: 10px
+        background-image: url(textbackground.jpeg); width: 600px; height: 50px; padding-top: 20px; padding-bottom: -20px; margin-left: 390px; border-radius: 10px
 
     }
-    .yaser {background-image:url(textbackground.jpeg); width: 890px; margin-left: 205px; border-radius: 10px; padding-left: 10px; padding-right: 10px
+    .yaser {background-image:url(textbackground.jpeg); width: 890px; margin-left: 252px; border-radius: 10px; padding-left: 10px; padding-right: 10px
 
           }
     .yaserpic {border-radius: 10px}
-    .omar {background-image: url(textbackground.jpeg); width: 890px; margin-left: 205px; padding-left: 10px; padding-right: 10px; border-radius: 10px }
+    .omar {background-image: url(textbackground.jpeg); width: 890px; margin-left: 251px; padding-left: 10px; padding-right: 10px; border-radius: 10px }
     .omarpic {border-radius: 10px}
     .somegames{ color: blue}
     .myinfo {color:blue;}
