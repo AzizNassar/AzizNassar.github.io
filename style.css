@@ -1,7 +1,27 @@
 body {text-align: center; color: white ;background-image: url(backgroundpattern.jpg)}
+.navigation { list-style-type:none;
+margin:0 0 0 285px;
+padding:0;
+position: fixed;
+left:0;
+top:0;
+right:0;
+background-color: black;
+width: 850px;
+z-index:2;
+height: 40px;
+padding-top:20px;
+color: white;
+
+}
+
+.navitem{
+    display: inline-block; color: white; text-decoration: none;
+}
     h1 {text-align: center; background-image: url(textbackground.jpeg); width: 400px; margin-left: 503px; border-radius: 10px }
     .mypic {border-radius: 20px}
     .places {
+        z-index: 1;
         position: relative; top:55px ; left:175px; display: inline-block; background-image: url(placesbackground.jpeg);  background-position: center center;background-size:100% 100%; border-radius: 10px; color: #FF1493
     }
     .slenderheader {margin-top: 0
@@ -9,7 +29,7 @@ body {text-align: center; color: white ;background-image: url(backgroundpattern.
     .somegames {margin-bottom: 0
     }
     .favs {margin-top: -150px; position: relative; right: 500px}
-    .hobbies {position: relative; right: 175px; display: inline-block; background-image: url(hobbiesbackground.jpeg);
+    .hobbies {position: relative; right: 175px; display: inline-block; background-image: url(hobbiesbackground.jpeg); z-index: 1
         background-position: center center;background-size:100% 100%; border-radius: 10px; padding-right: 10px; color: #FF1493; text-align: left; padding-left: 20px   }
     .myinfo {  background-image: url(textbackground.jpeg);
     width: 900px;
@@ -47,7 +67,7 @@ body {text-align: center; color: white ;background-image: url(backgroundpattern.
     .omarpic {border-radius: 10px}
     .somegames{ color: blue}
     .myinfo {color:blue;}
-    h1 {color:blue;}
+    h1 {color:blue; margin-top: 75px}
     .friendsheader {color:blue;}
     .yaser {color:blue;}
     .omar {color:blue;}
