@@ -9,7 +9,7 @@ body {text-align: center; color: white ;background-image: url(backgroundpattern.
     .somegames {margin-bottom: 0
     }
     .favs {margin-top: -150px; position: relative; right: 500px}
-    .hobbies {position: relative; right: 175px; bottom: ; display: inline-block; background-image: url(hobbiesbackground.jpeg);
+    .hobbies {position: relative; right: 175px; display: inline-block; background-image: url(hobbiesbackground.jpeg);
         background-position: center center;background-size:100% 100%; border-radius: 10px; padding-right: 10px; color: #FF1493; text-align: left; padding-left: 20px   }
     .myinfo {  background-image: url(textbackground.jpeg);
     width: 900px;
@@ -36,7 +36,7 @@ body {text-align: center; color: white ;background-image: url(backgroundpattern.
 
     }
     .friendsheader {
-        background-image: url(textbackground.jpeg); width: 600px; height: 50px; padding-top: 20px; padding-bottom: -20px; margin-left: 340px; border-radius: 10px
+        background-image: url(textbackground.jpeg); width: 600px; height: 50px; padding-top: 20px; padding-bottom: -20px; margin-left: 350px; border-radius: 10px
 
     }
     .yaser {background-image:url(textbackground.jpeg); width: 890px; margin-left: 205px; border-radius: 10px; padding-left: 10px; padding-right: 10px
@@ -45,4 +45,10 @@ body {text-align: center; color: white ;background-image: url(backgroundpattern.
     .yaserpic {border-radius: 10px}
     .omar {background-image: url(textbackground.jpeg); width: 890px; margin-left: 205px; padding-left: 10px; padding-right: 10px; border-radius: 10px }
     .omarpic {border-radius: 10px}
-    .somegames{ color: yellow}
+    .somegames{ color: blue}
+    .myinfo {color:blue;}
+    h1 {color:blue;}
+    .friendsheader {color:blue;}
+    .yaser {color:blue;}
+    .omar {color:blue;}
+    a { color: green}
