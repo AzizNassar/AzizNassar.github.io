@@ -1,6 +1,17 @@
-body {text-align: center; color: white ;background-image: url(backgroundpattern.jpg)}
+/*GENREAL*/
+body {
+    text-align: center;
+ color: white 
+ ;background-image: url(backgroundpattern.jpg);
+ a { 
+    color: green
+}
+
+
+/*NAVBAR*/
+}
 .navigation { list-style-type:none;
-margin:0 0 0 285px;
+;
 padding:0;
 position: fixed;
 left:0;
@@ -12,63 +23,143 @@ z-index:2;
 height: 40px;
 padding-top:20px;
 color: white;
-
+    margin:0 auto;
 }
 
 .navitem{
-    display: inline-block; color: white; text-decoration: none;
+    display: inline-block; 
+    color: white; 
+    text-decoration: none;
 }
-    h1 {text-align: center; background-image: url(textbackground.jpeg); width: 400px; margin-left: 503px; border-radius: 10px }
-    .mypic {border-radius: 20px}
-    .places {
-        z-index: 1;
-        position: relative; top:55px ; left:175px; display: inline-block; background-image: url(placesbackground.jpeg);  background-position: center center;background-size:100% 100%; border-radius: 10px; color: #FF1493
-    }
-    .slenderheader {margin-top: 0
-    }
-    .somegames {margin-bottom: 0
-    }
-    .favs {margin-top: -150px; position: relative; right: 500px}
-    .hobbies {position: relative; right: 175px; display: inline-block; background-image: url(hobbiesbackground.jpeg); z-index: 1
-        background-position: center center;background-size:100% 100%; border-radius: 10px; padding-right: 10px; color: #FF1493; text-align: left; padding-left: 20px   }
-    .myinfo {  background-image: url(textbackground.jpeg);
+
+/*MYINFO*/
+.myinfo {  
+    background-image: url(textbackground.jpeg);
     width: 900px;
     border-radius: 10px;
-     margin-left: 254px;
-    }
-    .favstable {
-    border-radius: 10px;
-    text-align: center;
-
-   position: relative;
-   left: 500px
+    color:blue;
 }
-    table th , table td { margin:0}
+        }   
+h1 {text-align: center;
+ background-image: url(textbackground.jpeg);
+  width: 400px;
+   margin-left: 503px;
+    border-radius: 10px }
+.mypic {
+    border-radius: 20px
+}
+/*PLACES*/
+.places {
+    z-index: 1;
+    position: relative; 
+    top:55px ;
+    left:175px;
+    display: inline-block;
+    background-image: url(placesbackground.jpeg);
+    background-position: center center;
+    background-size:100% 100%;
+    border-radius: 10px; 
+    color: #FF1493
+}
+/*HOBBIES*/
+.hobbies {position: relative;
+ right: 175px;
+  display: inline-block;
+   background-image: url(hobbiesbackground.jpeg);
+    z-index: 1;
+    background-position: center center;
+    background-size:100% 100%;
+     border-radius: 10px;
+     padding-right: 10px; 
+     color: #FF1493;
+      text-align: left;
+      padding-left: 20px 
+        }
+/*SOMEGAMES*/
+.somegames {margin-bottom: 0;
+    color: blue
+}
+
+/*FIFA*/
+.fifa {
+    background-image: url(fifa13.jpg); 
+    background-size:100% 100%; 
+    background-position: center center;
+     display: inline-block;
+    background-repeat: no-repeat; 
+    border-radius: 10px; 
+    width: 900px;
+    }
+/*PEWDIEPIE*/
+.pewds {
+    background-image: url("pewds.jpg"); 
+    background-size:100% 100%;
+    background-position: center center; 
+    border-radius: 10px;
+    width: 900px;
+    margin-left: 261px
+
+}
+/*FRIENDSHEADER*/
+.friendsheader {
+    background-image: url(textbackground.jpeg);
+    width: 600px; 
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    margin-left: 390px;
+    border-radius: 10px;
+    color: blue;
+
+}
+/*YASER*/
+.yaser {
+    background-image:url(textbackground.jpeg); 
+    width: 890px; 
+    margin-left: 252px;
+     border-radius: 10px; 
+     padding-left: 10px; 
+     padding-right: 10px
+
+      }
+.yaserpic {border-radius: 10px}
+.yaser {
+    color:blue;
+}
+/*OMAR*/
+.omar {
+    background-image: url(textbackground.jpeg); 
+    width: 890px;
+     margin-left: 251px; 
+     padding-left: 10px; 
+     padding-right: 10px; 
+     border-radius: 10px;
+     color:blue;
+      }
+.omarpic {
+    border-radius: 10px
+}
+
+
+/*NAME*/
+h1 {
+    color:blue;
+     margin-top: 75px;
+     background-image:url(textbackground.jpeg);
+     width: 500px;
+     border-radius: 10px;
+     text-align: center;
+     position: relative;
+     left: 400px
+     
+ }
+/*SLENDER*/
+.slenderheader {
+    margin-top: 0;
+}
     .slender {background-image: url(slenderman.jpg);
-        width: 900px; margin-left:
-         260px;  }
-    .fifa {
-            background-image: url(fifa13.jpg); background-size:100% 100%; background-position: center center; display: inline-block;
-            background-repeat: no-repeat; border-radius: 10px; width: 900px;
-    }
-    .pewds {background-image: url("pewds.jpg"); background-size:100% 100%; background-position: center center; border-radius: 10px;
-    width: 900px; margin-left: 261px
+    width: 900px; margin-left:
+     260px;  }
+}
 
-    }
-    .friendsheader {
-        background-image: url(textbackground.jpeg); width: 600px; height: 50px; padding-top: 20px; padding-bottom: -20px; margin-left: 390px; border-radius: 10px
 
-    }
-    .yaser {background-image:url(textbackground.jpeg); width: 890px; margin-left: 252px; border-radius: 10px; padding-left: 10px; padding-right: 10px
-
-          }
-    .yaserpic {border-radius: 10px}
-    .omar {background-image: url(textbackground.jpeg); width: 890px; margin-left: 251px; padding-left: 10px; padding-right: 10px; border-radius: 10px }
-    .omarpic {border-radius: 10px}
-    .somegames{ color: blue}
-    .myinfo {color:blue;}
-    h1 {color:blue; margin-top: 75px}
-    .friendsheader {color:blue;}
-    .yaser {color:blue;}
-    .omar {color:blue;}
-    a { color: green}
